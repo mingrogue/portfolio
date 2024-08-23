@@ -39,7 +39,7 @@
       {
             "Tab": "Pursuit Software",
             "Title": "Senior Backend developer",
-            "Date": "December 2019 - Present",
+            "Date": "Sprt 2020 - Feb 2023",
             "Description": [
               "Creation of several in systems for Pursuit from scratch.",
               "Creating plugins to add the necessary monitoring features in Azure App Insights.",
@@ -123,8 +123,7 @@
             "Title": "Countries viewer",
             "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
             "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+            "ghLink": "https://github.com/mingrogue/countries",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
         }
     ],
