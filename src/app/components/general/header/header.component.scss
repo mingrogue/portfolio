@@ -117,11 +117,17 @@
         }
     }
     .cv-btn{
-        width: fit-content !important;
-        // margin-left: 20px;
-        // color: $Green;
-        background-color: #ccd6f6;
-      padding: 7px 15px !important;
+        width: fit-content;
+        background: transparent;
+        border: 1px solid $Green;
+        border-radius: 5px;
+        cursor: pointer;
+        color: $Green !important;
+        font-size: 13px;
+        padding: 10px 16px;
+        &:hover {
+            background: $GreenOpacity !important;
+        }
     }
     .nav-link {
         padding: 5px 0px;

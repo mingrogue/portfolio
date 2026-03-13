@@ -22460,7 +22460,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵPRIMARY_HTTP_BACKEND": () => (/* binding */ PRIMARY_HTTP_BACKEND),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var _home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
+/* harmony import */ var _home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7580);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 1536);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 7498);
@@ -23983,7 +23983,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,_home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -24037,7 +24037,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,_home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,_home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -26056,7 +26056,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵɵviewQuery": () => (/* binding */ ɵɵviewQuery),
 /* harmony export */   "ɵɵviewQuerySignal": () => (/* binding */ ɵɵviewQuerySignal)
 /* harmony export */ });
-/* harmony import */ var _home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
+/* harmony import */ var _home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
 /* harmony import */ var _angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core/primitives/signals */ 5689);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3119);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 2842);
@@ -60498,7 +60498,7 @@ class ChangeDetectionSchedulerImpl {
    */
   raceTimeoutAndRequestAnimationFrame() {
     var _this = this;
-    return (0,_home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const timeout = new Promise(resolve => setTimeout(resolve));
       const rAF = typeof _global['requestAnimationFrame'] === 'function' ? new Promise(resolve => requestAnimationFrame(() => resolve())) : null;
       yield Promise.race([timeout, rAF]);
@@ -74377,7 +74377,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵafterNextNavigation": () => (/* binding */ afterNextNavigation),
 /* harmony export */   "ɵloadChildren": () => (/* binding */ loadChildren)
 /* harmony export */ });
-/* harmony import */ var _home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
+/* harmony import */ var _home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7580);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 6899);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 2561);
@@ -81027,7 +81027,7 @@ class RouterScroller {
   }
   scheduleScrollEvent(routerEvent, anchor) {
     var _this = this;
-    this.zone.runOutsideAngular( /*#__PURE__*/(0,_home_mingrogue_Desktop_portfolio_arnab_dark_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    this.zone.runOutsideAngular( /*#__PURE__*/(0,_home_sorice_Desktop_personal_portfolio_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       // The scroll event needs to be delayed until after change detection. Otherwise we may
       // attempt to restore the scroll position before the router outlet has fully rendered the
       // component by executing its update block of the template function.
@@ -85022,8 +85022,8 @@ class NgbAlert {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_0 = goog.getMsg("Close");
-        i18n_0 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_0;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_0 = goog.getMsg("Close");
+        i18n_0 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_0;
       } else {
         i18n_0 = $localize`:@@ngb.alert.close:Close`;
       }
@@ -85630,7 +85630,7 @@ class NgbCarousel {
         /**
          * @desc Currently selected slide number read by screen reader
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_1 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_1 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
           "interpolation": "\uFFFD0\uFFFD",
           "interpolation_1": "\uFFFD1\uFFFD"
         }, {
@@ -85639,7 +85639,7 @@ class NgbCarousel {
             "interpolation_1": "{{ c }}"
           }
         });
-        i18n_1 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_1;
+        i18n_1 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_1;
       } else {
         i18n_1 = $localize`:Currently selected slide number read by screen reader@@ngb.carousel.slide-number: Slide ${"\uFFFD0\uFFFD"}:INTERPOLATION: of ${"\uFFFD1\uFFFD"}:INTERPOLATION_1: `;
       }
@@ -85648,8 +85648,8 @@ class NgbCarousel {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Previous");
-        i18n_2 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_2;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Previous");
+        i18n_2 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_2;
       } else {
         i18n_2 = $localize`:@@ngb.carousel.previous:Previous`;
       }
@@ -85658,8 +85658,8 @@ class NgbCarousel {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_3 = goog.getMsg("Next");
-        i18n_3 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_3;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_3 = goog.getMsg("Next");
+        i18n_3 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_3;
       } else {
         i18n_3 = $localize`:@@ngb.carousel.next:Next`;
       }
@@ -87026,8 +87026,8 @@ class NgbDatepickerNavigationSelect {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_4 = goog.getMsg("Select month");
-        i18n_4 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_4;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_4 = goog.getMsg("Select month");
+        i18n_4 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_4;
       } else {
         i18n_4 = $localize`:@@ngb.datepicker.select-month:Select month`;
       }
@@ -87036,8 +87036,8 @@ class NgbDatepickerNavigationSelect {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_5 = goog.getMsg("Select month");
-        i18n_5 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_5;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_5 = goog.getMsg("Select month");
+        i18n_5 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_5;
       } else {
         i18n_5 = $localize`:@@ngb.datepicker.select-month:Select month`;
       }
@@ -87046,8 +87046,8 @@ class NgbDatepickerNavigationSelect {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_6 = goog.getMsg("Select year");
-        i18n_6 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_6;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_6 = goog.getMsg("Select year");
+        i18n_6 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_6;
       } else {
         i18n_6 = $localize`:@@ngb.datepicker.select-year:Select year`;
       }
@@ -87056,8 +87056,8 @@ class NgbDatepickerNavigationSelect {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_7 = goog.getMsg("Select year");
-        i18n_7 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_7;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_7 = goog.getMsg("Select year");
+        i18n_7 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_7;
       } else {
         i18n_7 = $localize`:@@ngb.datepicker.select-year:Select year`;
       }
@@ -87214,8 +87214,8 @@ class NgbDatepickerNavigation {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_8 = goog.getMsg("Previous month");
-        i18n_8 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_8;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_8 = goog.getMsg("Previous month");
+        i18n_8 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_8;
       } else {
         i18n_8 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
       }
@@ -87224,8 +87224,8 @@ class NgbDatepickerNavigation {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_9 = goog.getMsg("Previous month");
-        i18n_9 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_9;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_9 = goog.getMsg("Previous month");
+        i18n_9 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_9;
       } else {
         i18n_9 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
       }
@@ -87234,8 +87234,8 @@ class NgbDatepickerNavigation {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_10 = goog.getMsg("Next month");
-        i18n_10 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_10;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_10 = goog.getMsg("Next month");
+        i18n_10 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_10;
       } else {
         i18n_10 = $localize`:@@ngb.datepicker.next-month:Next month`;
       }
@@ -87244,8 +87244,8 @@ class NgbDatepickerNavigation {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_11 = goog.getMsg("Next month");
-        i18n_11 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_11;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_11 = goog.getMsg("Next month");
+        i18n_11 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_11;
       } else {
         i18n_11 = $localize`:@@ngb.datepicker.next-month:Next month`;
       }
@@ -93791,8 +93791,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_12 = goog.getMsg("\xAB\xAB");
-        i18n_12 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_12;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_12 = goog.getMsg("\xAB\xAB");
+        i18n_12 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_12;
       } else {
         i18n_12 = $localize`:@@ngb.pagination.first:««`;
       }
@@ -93801,8 +93801,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_13 = goog.getMsg("\xAB");
-        i18n_13 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_13;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_13 = goog.getMsg("\xAB");
+        i18n_13 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_13;
       } else {
         i18n_13 = $localize`:@@ngb.pagination.previous:«`;
       }
@@ -93811,8 +93811,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_14 = goog.getMsg("\xBB");
-        i18n_14 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_14;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_14 = goog.getMsg("\xBB");
+        i18n_14 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_14;
       } else {
         i18n_14 = $localize`:@@ngb.pagination.next:»`;
       }
@@ -93821,8 +93821,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_15 = goog.getMsg("\xBB\xBB");
-        i18n_15 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_15;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_15 = goog.getMsg("\xBB\xBB");
+        i18n_15 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_15;
       } else {
         i18n_15 = $localize`:@@ngb.pagination.last:»»`;
       }
@@ -93831,8 +93831,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_16 = goog.getMsg("First");
-        i18n_16 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_16;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_16 = goog.getMsg("First");
+        i18n_16 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_16;
       } else {
         i18n_16 = $localize`:@@ngb.pagination.first-aria:First`;
       }
@@ -93841,8 +93841,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_17 = goog.getMsg("Previous");
-        i18n_17 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_17;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_17 = goog.getMsg("Previous");
+        i18n_17 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_17;
       } else {
         i18n_17 = $localize`:@@ngb.pagination.previous-aria:Previous`;
       }
@@ -93851,8 +93851,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_18 = goog.getMsg("Next");
-        i18n_18 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_18;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_18 = goog.getMsg("Next");
+        i18n_18 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_18;
       } else {
         i18n_18 = $localize`:@@ngb.pagination.next-aria:Next`;
       }
@@ -93861,8 +93861,8 @@ class NgbPagination {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_19 = goog.getMsg("Last");
-        i18n_19 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_19;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_19 = goog.getMsg("Last");
+        i18n_19 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_19;
       } else {
         i18n_19 = $localize`:@@ngb.pagination.last-aria:Last`;
       }
@@ -94789,14 +94789,14 @@ class NgbProgressbar {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_20 = goog.getMsg("{$interpolation}", {
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_20 = goog.getMsg("{$interpolation}", {
           "interpolation": "\uFFFD0\uFFFD"
         }, {
           original_code: {
             "interpolation": "{{ getValue() / max | percent }}"
           }
         });
-        i18n_20 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_20;
+        i18n_20 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_20;
       } else {
         i18n_20 = $localize`:@@ngb.progressbar.value:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
       }
@@ -96459,8 +96459,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_21 = goog.getMsg("HH");
-        i18n_21 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_21;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_21 = goog.getMsg("HH");
+        i18n_21 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_21;
       } else {
         i18n_21 = $localize`:@@ngb.timepicker.HH:HH`;
       }
@@ -96469,8 +96469,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_22 = goog.getMsg("Hours");
-        i18n_22 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_22;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_22 = goog.getMsg("Hours");
+        i18n_22 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_22;
       } else {
         i18n_22 = $localize`:@@ngb.timepicker.hours:Hours`;
       }
@@ -96479,8 +96479,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_23 = goog.getMsg("MM");
-        i18n_23 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_23;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_23 = goog.getMsg("MM");
+        i18n_23 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_23;
       } else {
         i18n_23 = $localize`:@@ngb.timepicker.MM:MM`;
       }
@@ -96489,8 +96489,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_24 = goog.getMsg("Minutes");
-        i18n_24 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_24;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_24 = goog.getMsg("Minutes");
+        i18n_24 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_24;
       } else {
         i18n_24 = $localize`:@@ngb.timepicker.minutes:Minutes`;
       }
@@ -96499,8 +96499,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_25 = goog.getMsg("Increment hours");
-        i18n_25 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_25;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_25 = goog.getMsg("Increment hours");
+        i18n_25 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_25;
       } else {
         i18n_25 = $localize`:@@ngb.timepicker.increment-hours:Increment hours`;
       }
@@ -96509,8 +96509,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_26 = goog.getMsg("Decrement hours");
-        i18n_26 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_26;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_26 = goog.getMsg("Decrement hours");
+        i18n_26 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_26;
       } else {
         i18n_26 = $localize`:@@ngb.timepicker.decrement-hours:Decrement hours`;
       }
@@ -96519,8 +96519,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_27 = goog.getMsg("Increment minutes");
-        i18n_27 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_27;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_27 = goog.getMsg("Increment minutes");
+        i18n_27 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_27;
       } else {
         i18n_27 = $localize`:@@ngb.timepicker.increment-minutes:Increment minutes`;
       }
@@ -96529,8 +96529,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_28 = goog.getMsg("Decrement minutes");
-        i18n_28 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_28;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_28 = goog.getMsg("Decrement minutes");
+        i18n_28 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_28;
       } else {
         i18n_28 = $localize`:@@ngb.timepicker.decrement-minutes:Decrement minutes`;
       }
@@ -96539,8 +96539,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_29 = goog.getMsg("SS");
-        i18n_29 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_29;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_29 = goog.getMsg("SS");
+        i18n_29 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_29;
       } else {
         i18n_29 = $localize`:@@ngb.timepicker.SS:SS`;
       }
@@ -96549,8 +96549,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_30 = goog.getMsg("Seconds");
-        i18n_30 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_30;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_30 = goog.getMsg("Seconds");
+        i18n_30 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_30;
       } else {
         i18n_30 = $localize`:@@ngb.timepicker.seconds:Seconds`;
       }
@@ -96559,8 +96559,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_31 = goog.getMsg("Increment seconds");
-        i18n_31 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_31;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_31 = goog.getMsg("Increment seconds");
+        i18n_31 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_31;
       } else {
         i18n_31 = $localize`:@@ngb.timepicker.increment-seconds:Increment seconds`;
       }
@@ -96569,8 +96569,8 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_32 = goog.getMsg("Decrement seconds");
-        i18n_32 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_32;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_32 = goog.getMsg("Decrement seconds");
+        i18n_32 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_32;
       } else {
         i18n_32 = $localize`:@@ngb.timepicker.decrement-seconds:Decrement seconds`;
       }
@@ -96579,14 +96579,14 @@ class NgbTimepicker {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_33 = goog.getMsg("{$interpolation}", {
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_33 = goog.getMsg("{$interpolation}", {
           "interpolation": "\uFFFD0\uFFFD"
         }, {
           original_code: {
             "interpolation": "{{ i18n.getAfternoonPeriod() }}"
           }
         });
-        i18n_33 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_33;
+        i18n_33 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_33;
       } else {
         i18n_33 = $localize`:@@ngb.timepicker.PM:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
       }
@@ -97172,8 +97172,8 @@ class NgbToast {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_34 = goog.getMsg("Close");
-        i18n_34 = MSG__HOME_MINGROGUE_DESKTOP_PORTFOLIO_ARNAB_DARK_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_34;
+        const MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_34 = goog.getMsg("Close");
+        i18n_34 = MSG__HOME_SORICE_DESKTOP_PERSONAL_PORTFOLIO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2022_NG_BOOTSTRAP_MJS_34;
       } else {
         i18n_34 = $localize`:@@ngb.toast.close-aria:Close`;
       }
