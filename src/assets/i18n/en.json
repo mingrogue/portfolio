@@ -5,7 +5,7 @@
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "arnab-das-resume.pdf",
+    "Header.cvName": "arnab-das-resume.docx.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
     "Banner.Description": "I have <span class='underline'>6 years of experience</span> developing end to end containerized distributed microservices based backend systems and technological solutions to make the web a better place. I focus on writing and refactoring clean, reusable, and scalable code in <span class='underline'>NodeJS</span> and <span class='underline'>Python</span>, applying good practices and development standards.",
